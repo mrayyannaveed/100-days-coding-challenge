@@ -1,9 +1,7 @@
-var personName = "Rayyan Naveed";
+var personName = "Rayyan";
 var lowercase = personName.toLowerCase();
 console.log(lowercase);
 var uppercase = personName.toUpperCase();
 console.log(uppercase);
-var titlecase = personName.split(" ")
-    .map(function (word) { return word.charAt(0).toUpperCase() + word.slice(1).toLowerCase(); })
-    .join(" ");
+var titlecase = personName.charAt(0).toUpperCase() + personName.slice(1).toLowerCase();
 console.log(titlecase);

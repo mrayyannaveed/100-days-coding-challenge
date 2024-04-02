@@ -1,0 +1,14 @@
+let places: string[] = ["Turkey", "Madina", "Makkah", "Palestine"];
+console.log(`\nOriginal order: ${places}`);
+console.log(`\nAlphabetical order: ${places.sort()}`);
+console.log(`\nOriginal order: ${places}`);
+console.log(`\nReverse alphabetical order: ${places.sort().reverse()}`);
+console.log(`\nOriginal order: ${places}`);
+places.reverse();
+console.log(`\nReverse order: ${places}`);
+places.reverse();
+console.log(`\nOriginal order: ${places}`);
+places.sort();
+console.log(`\nAlphabetical order: ${places}`);
+places.reverse();
+console.log(`\nReverse alphabetical order: ${places}`);

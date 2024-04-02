@@ -1,0 +1,14 @@
+var places = ["Turkey", "Madina", "Makkah", "Palestine"];
+console.log("\nOriginal order: ".concat(places));
+console.log("\nAlphabetical order: ".concat(places.sort()));
+console.log("\nOriginal order: ".concat(places));
+console.log("\nReverse alphabetical order: ".concat(places.sort().reverse()));
+console.log("\nOriginal order: ".concat(places));
+places.reverse();
+console.log("\nReverse order: ".concat(places));
+places.reverse();
+console.log("\nOriginal order: ".concat(places));
+places.sort();
+console.log("\nAlphabetical order: ".concat(places));
+places.reverse();
+console.log("\nReverse alphabetical order: ".concat(places));
